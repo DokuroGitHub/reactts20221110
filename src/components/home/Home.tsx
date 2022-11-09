@@ -2,6 +2,7 @@ import logo from '../../logo.svg';
 import ToDoList from '../todo/ToDoList';
 import ProductDetail from '../productDetail/ProductDetail';
 import './Home.scss';
+import React=require('react');
 
 const Home = () => {
     return (

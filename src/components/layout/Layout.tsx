@@ -1,7 +1,6 @@
 import NavBar from '../navigator/NavBar';
-import {
-  Outlet,
-} from 'react-router-dom';
+import { Outlet } from 'react-router-dom';
+import React = require('react');
 
 const Layout = () => {
   return (
@@ -10,6 +9,6 @@ const Layout = () => {
       <Outlet />
     </div>
   );
-}
+};
 
 export default Layout;
