@@ -1,8 +1,8 @@
-import logo from '../../logo.svg';
+import logo from '../../assets/images/logo.svg';
 import ToDoList from '../todo/ToDoList';
 import ProductDetail from '../productDetail/ProductDetail';
 import './Home.scss';
-import React=require('react');
+import React = require('react');
 
 const Home = () => {
     return (
